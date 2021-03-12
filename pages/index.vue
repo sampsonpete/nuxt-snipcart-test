@@ -1,28 +1,17 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">
-        nuxt-snipcart-test
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <h1>Product Title</h1>
+      <p>£150</p>
+      <button
+        class="snipcart-add-item"
+        data-item-name="Product Title"
+        data-item-id="test"
+        data-item-price="150.00"
+        data-item-url="/"
+      >
+        Add to bag
+      </button>
     </div>
   </div>
 </template>

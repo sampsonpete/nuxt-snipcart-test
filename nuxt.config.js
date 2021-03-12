@@ -31,11 +31,19 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    // https://snipcart.nuxtjs.org
+    '@nuxtjs/snipcart',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
+
+  // Snipcart module configuration: (https://snipcart.nuxtjs.org/setup)
+  snipcart: {
+    key:
+      'MDE1NWNmNGMtNzdiZS00YjIxLTkzNTEtY2ViNjg1NmFkZjZjNjM3NDI2MTIyMDg4NzAxNjMx',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
